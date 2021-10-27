@@ -44,11 +44,13 @@ body{
 	justify-content: center;
 	flex-direction: column;
 }
-
+.left{
+	width: 30%;
+}
 /* song image */
 .left img{
 	height: 300px;
-	width: 80%;
+	width: 90%;
 	border-radius: 15px;
 	box-shadow: 1px 0px 20px 12px rgba(240,240,240,0.2);
 }
@@ -203,3 +205,40 @@ input[type="range"]::-webkit-slider-thumb{
 .right .show_song_no p:nth-child(2){
 	margin: 0 5px;
 }
+
+@media screen and (max-width:400px) {
+	
+	.main{
+		width: 80%;
+		height: 80%;
+	}
+	.left{
+		height: 30px;
+		width: 180px;
+		left: 80px;
+
+	}
+	.middle {
+		margin-right: 130px;
+		margin-top: 220px;
+	}
+	.duration{
+		margin-bottom: -40px;
+		margin-left:-60px;
+	}
+	.valume{
+		display: none;
+	}
+	.titlle{
+		width: 50%;
+	}
+	.title-1{
+		margin-left: -50px;
+		font-size: 10px;
+		margin: auto -60px;
+	}
+	.title-2{
+		margin-left: -70px;
+		font-size: 100px;
+	}
+}	

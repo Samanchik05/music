@@ -53,6 +53,37 @@ let All_song = [
     img: "img/img5.jpg",
     singer: "5",
   },
+  {
+    name: "The remedy for a broken",
+    path: "music/song6.mp3",
+    img: "img/img6.jpg",
+    singer: "6",
+  },
+  {
+    name: "Fantastico",
+    path: "music/song7.mp3",
+    img: "img/img7.jpg",
+    singer: "7",
+  },
+  {
+    name: "Relol",
+    path: "music/song8.mp3",
+    img: "img/img8.jpg",
+    singer: "8",
+  },
+  {
+    name: "Classic Rock",
+    path: "music/song9.mp3",
+    img: "img/img9.jpg",
+    singer: "9",
+  },
+  {
+    name: "Relo Slow",
+    path: "music/song10.mp3",
+    img: "img/img10.jpg",
+    singer: "10",
+  },
+
 ];
 
 // All functions
